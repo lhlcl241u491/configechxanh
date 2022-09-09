@@ -1,2 +1,0 @@
-# configechxanh
-configechxanh
