@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="./app.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <!-- main.css -->
+    <link rel="stylesheet" href="./style.css">
+    <!--site Title-->
+    <title>Discord Profile Card</title>
+  </head>
+  <body>
+<br>
+<br>
+<div class="container">
+    <center>
+<!--First-->
+
+<div class="card">
+    <div class="adjust">
+        <img src="https://cdn.discordapp.com/attachments/591157769181069332/730840844793282690/ic_launcher.png" alt="profile img" class="rounded-circle" width="80px" height="80px">
+        <h1 class="text-white">EchXanh <img src="https://cdn.discordapp.com/attachments/591157769181069332/752622240486522943/check.png" height="16" width="16" ></h1>
+    </div>
+
+ <!---Second-->  
+
+<div class="card-body second">
+    <p class="text-social">
+        Mạng Xã Hội
+    </p>
+<a href="#">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" alt="youtube icon" class="social youtube" height="40" width="40">
+</a>
+<a href="#">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Facebook_Messenger_logo_2020.svg/2048px-Facebook_Messenger_logo_2020.svg.png" alt="github icon" class="social youtube" height="40" width="40">
+</a>
+<a href="#">
+    <img src="https://ps.w.org/chat-with-me-on-zalo/assets/icon-256x256.png?rev=2418059" alt="twitter icon" class="social youtube" height="40" width="40">
+</a>
+<a href="#">
+    <img src="https://www.freepnglogos.com/uploads/instagram-logo-png-transparent-0.png" alt="instagram icon" class="social youtube" height="40" width="40">
+</a>
+    </div>
+
+    <!--Third-->
+
+    <div class="card-body third">
+    <p class="text-social">Nhóm ZALO</p>
+    <button type="button" onclick="location.href='https://zalo.me/g/gpngwk334';" class="btn">
+    <img src="https://genk.mediacdn.vn/k:thumb_w/640/2015/screen-shot-2015-07-30-at-2-31-57-pm-1438334096188/cau-chuyen-ve-nguoi-tao-ra-chu-ech-xanh-than-thanh.png" alt="server icon" class="rounded-circle social" width="40px" height="40px">
+    <p class="text-server"> EchXanh</p>
+    </button>
+    </div>
+    </center>
+</div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <br><br><br><br>
+            <div class="music">
+      <div class="music-thumb">
+        <img src="https://source.unsplash.com/random" alt="" />
+      </div>
+      <h3 class="music-name">Beautiful in white</h3>
+      <input type="range" name="range" id="range" class="range" />
+      <audio src="./music/holo.mp3" id="song"></audio>
+      <div class="timer">
+        <div class="duration">2:10</div>
+        <div class="remaining">-3:10</div>
+      </div>
+      <div class="controls">
+        <ion-icon name="infinite-outline" class="play-infinite"></ion-icon>
+        <ion-icon name="play-back" class="play-back"></ion-icon>
+        <div class="play">
+          <div class="player-inner">
+            <ion-icon name="play" class="play-icon"></ion-icon>
+          </div>
+        </div>
+        <ion-icon name="play-forward" class="play-forward"></ion-icon>
+        <ion-icon name="repeat-outline" class="play-repeat"></ion-icon>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
