@@ -1,0 +1,108 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background: rgb(43, 54, 71);
+}
+img {
+  width: 8em;
+  border-radius: 100%;
+  border: 2px solid wheat;
+  opacity: 0.9;
+  background-color: rgba(5, 126, 231, 0.5);
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+h1 {
+  font-size: 20px;
+  display: inline-block;
+  background: rgba(5, 126, 231, 0.222);
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 5px 15px;
+  margin: 15px;
+  color: white;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin: 20px;
+  border-radius: 30px;
+  position: relative;
+
+  display: flex;
+}
+ul li a {
+  background: rgba(5, 126, 231, 0.5);
+  width: 400px;
+  height: 60px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50px;
+}
+i {
+  font-size: 2em;
+  display: flex;
+  position: absolute;
+  top: 15px;
+  left: 100px;
+  color: white;
+}
+a:hover {
+  background: rgba(255, 255, 255, 0.482);
+  color: rgba(5, 126, 231, 0.5);
+}
+a:hover i {
+  color: rgba(5, 126, 231, 0.5);
+}
+
+.container {
+  position: relative;
+  background: url(/pexels-mathias-reding-11911956.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.content {
+  animation: üstten-alta 1000ms;
+}
+@keyframes üstten-alta {
+  0% {
+    transform: translateY(-100);
+    opacity: 0;
+  }
+  25% {
+    transform: translateY(-100);
+    opacity: 0;
+  }
+  75% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
