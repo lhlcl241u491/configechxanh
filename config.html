@@ -23,7 +23,53 @@
 
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
 
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
 
 img {
             border:2px double red;
@@ -146,6 +192,14 @@ h2 a {
 .container th:nth-child(4) { display: none; }
 }
 </style>
+<div class="header">
+  <a img src="./ico/sparkpost.png" href="#default" class="logo">EchXanh</a>
+  <div class="header-right">
+    <a class="active" href="https://repo.lhlechxanh.tk">Về Trang Chủ</a>
+    <a href="https://zalo.me/g/gpngwk334">Mua 4G Giá Rẻ</a>
+    <a href="https://facebook.com/lehoailam3005">Liên Hệ</a>
+  </div>
+</div>
 <h1><span class="blue">&lt;</span>Config<span class="blue">&gt;</span> <span class="yellow">EchXanh VPN</pan>
 </h1>
 <h2>EchXanh 4G giá rẻ không giới hạn tốc độ cao , giá thành rẻ hơn nhiều lần so với nhà mạng</a></h2>
@@ -167,7 +221,7 @@ h2 a {
   <tbody>
     <tr>
       <!-- cột 1-->
-      <td><img src="./ico/picart.jpg" style="max-width:20%;"></td>
+      <td><img src="./ico/sparkpost.png" style="max-width:15%;"><img src="./ico/reface.png" style="max-width:15%;"><img src="./ico/premier.png" style="max-width:15%;"><img src="./ico/Photoshop.png" style="max-width:15%;"><img src="./ico/Photomath.png" style="max-width:15%;"><br><img src="./ico/mojo.jpg" style="max-width:15%;"><img src="./ico/Lightroom.png" style="max-width:15%;"><img src="./ico/kine.jpg" style="max-width:15%;"><img src="./ico/Infltr.jpg" style="max-width:15%;"><img src="./ico/illustrator.png" style="max-width:15%;"><br><img src="./ico/funimate.png" style="max-width:15%;"><img src="./ico/fresco.png" style="max-width:15%;"><img src="./ico/Djay.jpg" style="max-width:15%;"><img src="./ico/Colortone Prisma.png" style="max-width:15%;"><img src="./ico/busuu.png" style="max-width:15%;"><br><img src="./ico/alight.png" style="max-width:15%;"><img src="./ico/calm.jpg" style="max-width:15%;"><img src="./ico/picart.jpg" style="max-width:15%;"><img src="./ico/Ultrahuman.jpg" style="max-width:15%;"><img src="./ico/unfold.png" style="max-width:15%;"><br><img src="./ico/vizmato.png" style="max-width:15%;"><img src="./ico/Vllo.png" style="max-width:15%;"><img src="./ico/Vlogstar.png" style="max-width:15%;"><img src="./ico/vsco.png" style="max-width:15%;"><img src="./ico/Widget Smith.jpg" style="max-width:15%;"></td>
       <!-- cột 2-->
       <td><h1 style="font-size:3vw;">Pro</h1></td>
       <!-- cột 3-->
